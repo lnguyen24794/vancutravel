@@ -1,0 +1,660 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: elixar\n"
+"POT-Creation-Date: 2019-02-06 15:46+0530\n"
+"PO-Revision-Date: 2019-02-06 15:46+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html;esc_html_e;_x;_nx\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:16
+msgid "404 Error"
+msgstr ""
+
+#: 404.php:27
+msgid "404&#33;"
+msgstr ""
+
+#: 404.php:28
+msgid "Oops&#33; That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:29
+msgid "Back to Homepage"
+msgstr ""
+
+#: blog-content.php:38 template-parts/content-search.php:36
+msgid "Read More"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:386
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:387 class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:388
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2342
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2388
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2482
+msgid "unknown"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: comments.php:34
+#, php-format
+msgid "%1$s Comment on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:47 comments.php:59
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:504
+msgid "Category "
+msgstr ""
+
+#: functions.php:562
+msgid "Search results for "
+msgstr ""
+
+#: functions.php:564
+msgid "Tag "
+msgstr ""
+
+#: functions.php:568
+msgid "Articles posted by: "
+msgstr ""
+
+#: functions.php:570
+msgid "Error 404 "
+msgstr ""
+
+#: header-2.php:30
+msgid "Skip to content"
+msgstr ""
+
+#: header-2.php:79
+msgid "Main Menu"
+msgstr ""
+
+#: header-2.php:90
+msgid "Top Menu"
+msgstr ""
+
+#: inc/customizer/customizer-controls.php:361
+msgid "Add an item"
+msgstr ""
+
+#: inc/customizer/customizer-controls.php:374
+msgid "Item"
+msgstr ""
+
+#: inc/customizer/customizer-controls.php:467
+#: inc/customizer/customizer-controls.php:487
+#: inc/customizer/customizer-controls.php:495
+msgid "Remove"
+msgstr ""
+
+#: inc/customizer/customizer-controls.php:468
+msgid "Add"
+msgstr ""
+
+#: inc/customizer/customizer-controls.php:468
+msgid "Change"
+msgstr ""
+
+#: inc/customizer/customizer-controls.php:497
+msgid "Close"
+msgstr ""
+
+#: inc/customizer/customizer-controls.php:563
+msgid "All"
+msgstr ""
+
+#: inc/customizer/customizer.php:1161
+msgid "Custom footer 1 column width"
+msgstr ""
+
+#: inc/customizer/customizer.php:1161
+#, php-format
+msgid "Custom footer %s columns width"
+msgstr ""
+
+#: inc/customizer/customizer.php:1272
+#, php-format
+msgid ""
+"Theme powered by %1$s WordPress %3$s & developed by %2$s WebHunt Infotech "
+"%3$s"
+msgstr ""
+
+#: inc/customizer/customizer.php:1911 inc/customizer/customizer.php:2077
+msgid ""
+"Upgrade to <a target=\"_blank\" href=\"https://www.webhuntinfotech.com/theme/"
+"elixar-premium/\">Elixar Premium</a> to be able to add more items and unlock "
+"other premium features!"
+msgstr ""
+
+#: inc/customizer/dashboard.php:284
+msgid ""
+"Elixar is a creative and flexible WordPress theme well suited for business, "
+"portfolio, digital agency, product showcase, freelancers websites."
+msgstr ""
+
+#: inc/customizer/dashboard.php:285
+msgid "WebhuntThemes"
+msgstr ""
+
+#: inc/customizer/dashboard.php:287
+msgid "Elixar"
+msgstr ""
+
+#: inc/customizer/dashboard.php:288
+msgid "Recommended Actions"
+msgstr ""
+
+#: inc/customizer/dashboard.php:290
+msgid "Free vs Pro"
+msgstr ""
+
+#: inc/customizer/dashboard.php:292
+msgid "Changelog"
+msgstr ""
+
+#: inc/customizer/dashboard.php:300
+msgid "Theme Customizer"
+msgstr ""
+
+#: inc/customizer/dashboard.php:304
+msgid "Start Customize"
+msgstr ""
+
+#: inc/customizer/dashboard.php:308
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/customizer/dashboard.php:312
+msgid "Elixar Documentation"
+msgstr ""
+
+#: inc/customizer/dashboard.php:317
+msgid "Create a Child Theme"
+msgstr ""
+
+#: inc/customizer/dashboard.php:320 inc/customizer/dashboard.php:327
+msgid "View how to do this"
+msgstr ""
+
+#: inc/customizer/dashboard.php:324
+msgid "Gallery in Blog Posts"
+msgstr ""
+
+#: inc/customizer/dashboard.php:331
+msgid "Having Trouble, Need Support?"
+msgstr ""
+
+#: inc/customizer/dashboard.php:335
+msgid "Create a support ticket"
+msgstr ""
+
+#: inc/customizer/dashboard.php:372
+msgid "Your settings copied."
+msgstr ""
+
+#: inc/customizer/dashboard.php:387
+msgid "Recommend Plugins"
+msgstr ""
+
+#: inc/customizer/dashboard.php:402
+msgid "Switch \"Front page displays\" to \"A static page\""
+msgstr ""
+
+#: inc/customizer/dashboard.php:404
+msgid ""
+"In order to have the home page for your website, please go to Customize -"
+"&gt; Static Front Page and switch \"Front page displays\" to \"A static page"
+"\"."
+msgstr ""
+
+#: inc/customizer/dashboard.php:407 inc/customizer/dashboard.php:429
+msgid "Setup front page displays"
+msgstr ""
+
+#: inc/customizer/dashboard.php:420
+msgid "Set your homepage page template to \"Home\"."
+msgstr ""
+
+#: inc/customizer/dashboard.php:422
+msgid ""
+"In order to change homepage section contents, you will need to set template "
+"\"Home\" for your homepage."
+msgstr ""
+
+#: inc/customizer/dashboard.php:434
+msgid "Change homepage page template"
+msgstr ""
+
+#: inc/customizer/dashboard.php:445
+msgid "Hooray! There are no required actions for you right now."
+msgstr ""
+
+#: inc/customizer/dashboard.php:453
+msgid "Elixar Free"
+msgstr ""
+
+#: inc/customizer/dashboard.php:453
+msgid "Elixar Premium"
+msgstr ""
+
+#: inc/customizer/dashboard.php:457
+msgid "WooCommerce Support"
+msgstr ""
+
+#: inc/customizer/dashboard.php:464
+msgid "Hero Section"
+msgstr ""
+
+#: inc/customizer/dashboard.php:471
+msgid "&#45; Background Video"
+msgstr ""
+
+#: inc/customizer/dashboard.php:478
+msgid "&#45; Background Slides"
+msgstr ""
+
+#: inc/customizer/dashboard.php:485
+msgid "About Section"
+msgstr ""
+
+#: inc/customizer/dashboard.php:492 inc/customizer/dashboard.php:506
+msgid "&#45; Number of items"
+msgstr ""
+
+#: inc/customizer/dashboard.php:494
+msgid "3"
+msgstr ""
+
+#: inc/customizer/dashboard.php:495 inc/customizer/dashboard.php:509
+msgid "Unlimited"
+msgstr ""
+
+#: inc/customizer/dashboard.php:499
+msgid "Service Section"
+msgstr ""
+
+#: inc/customizer/dashboard.php:508
+msgid "4"
+msgstr ""
+
+#: inc/customizer/dashboard.php:513
+msgid "Counter Section"
+msgstr ""
+
+#: inc/customizer/dashboard.php:520
+msgid "Team Section"
+msgstr ""
+
+#: inc/customizer/dashboard.php:527
+msgid "Latest Blog Section"
+msgstr ""
+
+#: inc/customizer/dashboard.php:534
+msgid "Contact Section"
+msgstr ""
+
+#: inc/customizer/dashboard.php:541
+msgid "Drag and drop section orders"
+msgstr ""
+
+#: inc/customizer/dashboard.php:548
+msgid "Add New Section"
+msgstr ""
+
+#: inc/customizer/dashboard.php:555
+msgid "Styling for all sections"
+msgstr ""
+
+#: inc/customizer/dashboard.php:562
+msgid "Google Map Section"
+msgstr ""
+
+#: inc/customizer/dashboard.php:569
+msgid "Pricing Section"
+msgstr ""
+
+#: inc/customizer/dashboard.php:576
+msgid "Testimonial Section"
+msgstr ""
+
+#: inc/customizer/dashboard.php:583
+msgid "Call To Action Section"
+msgstr ""
+
+#: inc/customizer/dashboard.php:590
+msgid "Projects Section"
+msgstr ""
+
+#: inc/customizer/dashboard.php:597
+msgid "Typography Options"
+msgstr ""
+
+#: inc/customizer/dashboard.php:604
+msgid "24/7 Priority Support"
+msgstr ""
+
+#: inc/customizer/dashboard.php:609
+msgid "Get Elixar Premium now!"
+msgstr ""
+
+#: inc/customizer/dashboard.php:640
+msgid "Are you sure want to copy ?"
+msgstr ""
+
+#: inc/extras.php:64
+msgid ""
+"Save time by import our demo data, your website will be set up and ready to "
+"customize in minutes."
+msgstr ""
+
+#: inc/template-tags.php:51
+#, php-format
+msgid " Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: index.php:37 search.php:59
+msgid "Post navigation"
+msgstr ""
+
+#: product-searchform.php:3
+msgid "Search Product..."
+msgstr ""
+
+#: product-searchform.php:6 searchform.php:5
+msgid "Search"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search here..."
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:16
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:18
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:21
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""

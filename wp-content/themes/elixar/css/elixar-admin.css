@@ -1,0 +1,12 @@
+/*! elixar-admin.css
+*
+* theme admin page css
+*
+* @package Elixar
+*/
+.elixar_meta_info.wc-connect {
+    background: #eee;
+    margin: 10px -12px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}

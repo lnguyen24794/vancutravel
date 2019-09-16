@@ -1,0 +1,265 @@
+/*
+	Theme Name: Coality
+	Description: Coality is a complete package theme with all the feature that you need to make a complete website. Best for bussiness, corporate, corporation, company profile, personal portfolio, blog site websites etc. The theme has clean and elegant design, full/boxed width layout, static/fixed Header, sidebar option, two/three/four column footer layout. The home page consist of hero section, service section, calltoaction section, news/blog section, social icons, header customization, footer widget etc. The theme is fully responsive and is built on customizer that enable you to configure the website with live preview. The theme is SEO friendly, Cross browser compatible, fully translation ready and is compatible with WooCommerce and all other major plugins. Theme comes with one click demo import option.
+	Version: 1.0.4
+	Author: WebHunt Infotech
+	Template: Elixar
+	Template Version: 2.3
+	Author URI: http://www.webhuntinfotech.com/
+	License: GNU General Public License v3 or later
+	License URI: http://www.gnu.org/licenses/gpl.html
+	Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-image-header, featured-images, front-page-post-form, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, grid-layout, footer-widgets, blog, portfolio, e-commerce
+	Text Domain: coality
+*/
+/*------------------------------------------
+    01 - General & Basic Styles
+------------------------------------------*/
+#suprhead {
+    position: relative;
+    z-index: 9999;
+    width: 100%;
+	height: 90px;
+    background: transparent;
+	box-shadow: unset;
+}
+
+.page-template-home-page .abovehero #suprhead{
+	position: absolute;
+}
+
+.page-template-home-page .abovehero:not(.fixed) .site-branding-text .site-title a,
+.page-template-home-page .abovehero:not(.fixed) .site-branding-text .site-description
+{
+    color: #ffffff;
+}
+
+.main-navigation ul li a{
+	color: #2196f3;
+}
+
+.header-search-box > a:hover {
+    color: #ffffff;
+}
+
+#site-header .navbar-default {
+    background-color: transparent;
+    background-color: transparent;
+}
+
+#suprhead{
+	background: transparent;
+}
+
+#e-contact-wapper {
+    clear: both;
+    width: 100%;
+    z-index: 99999;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+#e-navbar.fixed {
+    position: fixed;
+    top: 0;
+	width: 100%;
+    z-index: 999;
+	left: 0;
+}
+
+#e-navbar.fixed #suprhead{
+    background: #ffffff;
+}
+
+#quick-contact > ul {
+    color: #fff;
+}
+
+.header-search-box > a {
+    color: #ffffff;
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+    margin-top: 32px;
+}
+
+#quick-contact a{
+    color: #ffffff;
+}
+
+#quick-contact a:hover {
+	color: #000;
+}
+
+.menu-right-head {
+    float: right;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-section-wrapper {
+    padding: 15% 0;
+}
+
+.main-navigation ul li a::before{
+	background:#000;
+	width: 1.3px;
+}
+
+.service-icon-circle{
+	border-radius: 0;
+}
+
+.fa-4x.service-icon-circle {
+    width: 90px;
+    height: 90px;
+    line-height: 30px;
+    font-size: 55px;
+}
+
+.elixar-product-sidebar ul.list-unstructured li:before {
+    content: '\f35a';
+	font-weight:900;
+}
+#section_footer ul.list-unstructured li:before {
+    content: '\f35a';
+	font-weight:900;
+}
+
+#e_main_nav {
+    padding: 0px;
+}
+
+#e_main_nav.fixed #suprhead{
+	background:#fff;
+}
+
+.form-submit input[type="submit"]{
+	width: 180px;
+}
+
+a.cart-contents, a.cart-contents:hover{
+	color:#fff;
+}
+
+@media only screen and (max-width: 1023px)
+{
+	.enabled-sticky-primary-menu.sidr-open #e-contact-wapper.fixed {
+        position: relative;
+        top: 89px;
+    }
+	
+	#e_main_navigation {
+		display:none;
+	}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px)
+{	
+	#e-contact-wapper .e-contact-right-head {
+		clear: both;
+		float: left;
+		margin: 10px 0 0;
+		padding: 23px 0 10px;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#quick-contact {
+		width: 100%;
+	}
+	#quick-contact li:first-child, #quick-contact li {
+		width: auto;
+	}
+	.e-contact-right-head {
+		margin-bottom: 20px;
+	}
+	.header-search-box > a {
+		margin-top: 0;
+	}
+	.e-contact-right-head {
+		display: block;
+	}
+	#suprhead {
+		background: #fff;
+	}
+	.page-template-home-page .abovehero:not(.fixed) .site-branding-text .site-title a, .page-template-home-page .abovehero:not(.fixed) .site-branding-text .site-description {
+		color: #000000;
+	}
+}
+
+/* Service section css */
+.c-serviceBox{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    padding: 50px 10px 20px;
+}
+.c-serviceBox .service-icon {
+    background: #fff;
+    font-size: 50px;
+    line-height: 120px;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 50px;
+    transition: all 0.3s;
+}
+.c-serviceBox .service-icon-img {
+    background: #fff;
+    font-size: 50px;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 50px;
+    transition: all 0.3s;
+}
+.c-serviceBox:hover .service-icon{
+    font-size: 60px;
+}
+.c-serviceBox .title{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+.c-serviceBox .description{
+    color: #888;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 0 0 15px;
+}
+.c-serviceBox .read-more{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s;
+}
+.c-serviceBox .read-more:hover{
+    letter-spacing: 1px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.c-serviceBox .read-more:before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    transform: scale(1) skew(-20deg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: all 0.3s;
+}
+.c-serviceBox .read-more:hover:before{ transform: scale(0) skew(-20deg); }
+.c-serviceBox .service-icon img{
+	line-height:unset;
+}
+@media only screen and (max-width:990px){
+    .c-serviceBox{ margin: 0 0 40px; }
+}
+body.page-template-home-page .main-navigation ul li a {
+    font-weight: 600;
+    text-shadow: 2px 1px 2px #000;
+}
